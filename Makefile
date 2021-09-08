@@ -7,7 +7,7 @@ MANDIR ?= $(DATAROOTDIR)/man
 
 # files that need mode 755
 EXEC_FILES = git-standup
-Testing========================================================================
+
 .PHONY: check all install uninstall shellcheck shfmt
 
 all:
